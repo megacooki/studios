@@ -7,7 +7,7 @@
 }
 .hero-gradient-title {
     /*color: var(--primary);*/
-    background: -webkit-linear-gradient(300deg, var(--accent), var(--primary));
+    background: -webkit-linear-gradient(300deg, var(--accent), var(--text));
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
