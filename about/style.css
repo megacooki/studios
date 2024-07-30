@@ -1,0 +1,35 @@
+.title {
+    color: var(--text-white);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    font-size: 45pt;
+    text-align: center;
+}
+.description {
+    max-width: 60%;
+    margin-left: 20%;
+    color: var(--text-white);
+    font-family: "Roboto", sans-serif;
+    font-size: 1.3rem;
+    text-align: center;
+    margin-top: 2pc;
+}
+.header {
+    padding: 100px;
+    text-align: center;
+    background: var(--background);
+    height: 100vh;
+    background-size: cover;
+    opacity: 1;
+    color: white;
+    font-size: 30px;
+    z-index: -1;
+    background-position: top;
+  }
+  .highlight {
+    color: var(--accent);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    font-size: 45pt;
+    text-align: center;
+  }

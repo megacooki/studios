@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Studios</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="content.css">
+
+</head>
+<body>
+    <nav id="myTopnav">
+        <a href="#home" class="logo">LOGO</a>
+        <div class="topnav" >
+            <a href="/games/">Games</a>
+            <a href="/about/">About</a>
+            <a href="#">Home</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <span class="material-symbols-rounded">menu</span>
+            </a>
+          </div>
+        </nav>
+    <section class="hero-section size-max">
+        <div class="grid size-max">
+        <div class="grid-section">
+            <div class="left">
+            <p class="hero-title">Welcome to<br><p class="hero-title hero-gradient-title">Nova Studios</p></p>
+            <p class="hero-description">Welcome to nova studios.<br>Check out our games or find out about us!</p>
+            <button class="hero-button" onclick="window.location.href='/games'">Games<span class="material-symbols-rounded">play_arrow</span></button>
+            <button class="hero-button hero-button-hollow" onclick="window.location.href='/about'">About<span class="material-symbols-rounded">chevron_right</span></button>
+        </div>
+            </div>
+        <div class="grid-section">
+            <img src="content/v/HexDesign.svg" alt="Hexagons">
+        </div>
+        </div>
+    </section>
+
+    
+</body>
+<script src="main.js"></script>
+<script src="content.js"></script>
+</html>

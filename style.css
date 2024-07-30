@@ -1,0 +1,90 @@
+.hero-title {
+    color: var(--text-white);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    font-size: 45pt;
+    text-align: left;
+}
+.hero-gradient-title {
+    /*color: var(--primary);*/
+    background: -webkit-linear-gradient(300deg, var(--accent), var(--primary));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.hero-description {
+    color: var(--text-fine);
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+    margin-top: 1pc;
+    text-align: left;
+}
+.hero-button {
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+    font-size: 19px;
+    margin-top: 4pc;
+    margin-bottom: 4pc;
+    text-align: left;
+    text-indent: 10px;
+    padding: 0.8pc;
+    margin-right: 1pc;
+    width: 135px;
+    border: none;
+    border-radius: 100pt;
+    outline: none;
+    background-color: var(--primary);
+    color: var(--background);
+}
+.hero-button:hover {
+    opacity: 0.8;
+}
+.hero-button-hollow {
+    background-color: var(--background);
+    border: 2px solid var(--primary);
+    color: var(--primary);
+}
+.hero-section {
+    height: calc(100vh - 80px);
+    min-height: 500px;
+    margin: 0;
+    padding: 0;
+    margin-top: 80px;
+}
+.left {
+    margin-left: 80px;
+}
+.hero-section .grid {
+    vertical-align: middle;
+    align-items: center;
+    height: 100%;
+}
+.hero-section .grid-item {
+    display: flex;
+    align-items: center;
+    height: fit-content;
+    width: 100%;
+}
+.hero-section img {
+    width: 80%;
+}
+
+@media screen and (max-width: 1000px) {
+    .hero {
+        height: fit-content;
+    }
+    .grid {
+        grid-template-columns: 1fr;
+    }
+    .about-right {
+        grid-row-start: 2;
+    }
+    .left {
+        margin-left: 40px;
+    }
+    .hero-section img{
+        margin-left: 40px;
+    }
+}
+

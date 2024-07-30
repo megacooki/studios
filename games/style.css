@@ -1,0 +1,101 @@
+.container {
+    margin-top: 80px;
+}
+.title {
+    color: var(--text-white);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    font-size: 45pt;
+    text-align: center;
+}
+.description {
+    max-width: 60%;
+    margin-left: 20%;
+    color: var(--text-white);
+    font-family: "Roboto", sans-serif;
+    font-size: 1.2rem;
+    text-align: center;
+}
+.header {
+    padding: 100px;
+    padding-bottom: 50px;
+    text-align: center;
+    background: var(--background);
+    background-size: cover;
+    opacity: 1;
+    color: white;
+    font-size: 30px;
+    z-index: -1;
+  }
+  .highlight {
+    color: var(--accent);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    font-size: 45pt;
+    text-align: center;
+  }
+
+  /* Style the tab */
+.tab {
+    overflow: hidden;
+    border: none;
+    background-color: transparent;
+    padding: 0px 80px;
+    margin-top: 80px;
+  }
+  
+  /* Style the buttons inside the tab */
+  .tab button {
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+    background-color: transparent;
+    color: var(--text-white);
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 30px;
+    transition: 0.3s;
+    font-size: 1.2rem;
+  }
+  
+  /* Change background color of buttons on hover */
+  .tab button:hover {
+    color: var(--accent);
+  }
+  
+  /* Create an active/current tablink class */
+  .tab button.active {
+    color: var(--primary);
+    font-weight: bold;
+    text-decoration: underline;
+    text-underline-offset: 15px;
+  }
+
+  .card-container {
+    padding: 2pc 50px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .card {
+    cursor: pointer;
+    margin: 30px;
+  }
+  .card.img {
+    max-height: 275px;
+    max-width: 210px;
+  }
+  .name {
+    color: var(--text-white);
+    margin-top: 10px;
+    max-width: 210px;
+  }
+  .type {
+    color: var(--primary);
+    margin-top: 10px;
+    max-width: 210px;
+    font-weight: bold;
+  }
+  .hidden {
+    display: none;
+  }
