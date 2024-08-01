@@ -81,17 +81,13 @@ nav {
     color: var(--accent);
   }
   
-  nav .logo {
-    color: var(--text-white);
-    font-family: "Montserrat", sans-serif;
-    font-weight: 900;
+  .logo {
     float: left;
     display: block;
     text-align: center;
-    padding: 30px 20px;
     text-decoration: none;
-    font-size: 17px;
-    padding-left: 40px;
+    margin-left: 15px;
+    margin-top: 15px;
   }
   
   .topnav .icon {
