@@ -2,7 +2,7 @@
     margin-top: 80px;
 }
 .title {
-    color: var(--text-white);
+    color: var(--accent);
     font-family: "Montserrat", sans-serif;
     font-weight: 800;
     font-size: 45pt;
@@ -18,7 +18,7 @@
 }
 .header {
     padding: 100px;
-    padding-bottom: 50px;
+    padding-bottom: 0px;
     text-align: center;
     background: var(--background);
     background-size: cover;
@@ -28,7 +28,7 @@
     z-index: -1;
   }
   .highlight {
-    color: var(--accent);
+    color: var(--text-white);
     font-family: "Montserrat", sans-serif;
     font-weight: 800;
     font-size: 45pt;
@@ -41,7 +41,7 @@
     border: none;
     background-color: transparent;
     padding: 0px 80px;
-    margin-top: 80px;
+    margin-top: 40px;
   }
   
   /* Style the buttons inside the tab */
@@ -98,4 +98,17 @@
   }
   .hidden {
     display: none;
+  }
+
+  @media screen and (max-width: 600px) {
+    .header {
+      padding: 20px;
+      margin-top: 80px;
+    }
+    .tab {
+      padding: 0px 20px;
+    }
+    .tab button {
+      padding: 14px 20px;
+    }
   }

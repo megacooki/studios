@@ -1,5 +1,5 @@
 .title {
-    color: var(--text-white);
+    color: var(--accent);
     font-family: "Montserrat", sans-serif;
     font-weight: 800;
     font-size: 45pt;
@@ -13,6 +13,7 @@
     font-size: 1.3rem;
     text-align: center;
     margin-top: 2pc;
+    text-align: left;
 }
 .header {
     padding: 100px;
@@ -27,9 +28,21 @@
     background-position: top;
   }
   .highlight {
-    color: var(--accent);
+    color: var(--text-white);
     font-family: "Montserrat", sans-serif;
     font-weight: 800;
     font-size: 45pt;
     text-align: center;
   }
+
+@media screen and (max-width: 600px) {
+  .description {
+    max-width: 100%;
+    margin-left: 0;
+    padding: 0 20px;
+  }
+  .header {
+    padding: 20px;
+    margin-top: 80px;
+  }
+}

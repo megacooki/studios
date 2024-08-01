@@ -86,7 +86,7 @@ nav {
     display: block;
     text-align: center;
     text-decoration: none;
-    margin-left: 15px;
+    margin-left: 40px;
     margin-top: 15px;
   }
   
@@ -114,6 +114,9 @@ nav {
       display: block;
       text-align: left;
       padding-left: 40px;
+    }
+    .responsive .logo {
+      margin-left: 0;
     }
   }
   @media screen and (max-width: 1000px) {
